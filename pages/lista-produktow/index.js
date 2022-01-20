@@ -1,6 +1,6 @@
 import ProductList from "../../components/ProductList";
 
-const products = [
+const dummyProducts = [
   {
     id: 1,
     name: "mydlo 1",
@@ -19,7 +19,7 @@ const products = [
   },
 ];
 
-const ProductPage = () => {
+const ProductPage = ({ products }) => {
   return (
     <>
       <h2>Lista produktów</h2>
@@ -27,5 +27,13 @@ const ProductPage = () => {
     </>
   );
 };
+
+export async function getStaticProps() {
+  return {
+    props: {
+      products: dummyProducts,
+    },
+  };
+}
 
 export default ProductPage;
