@@ -9,7 +9,7 @@ const ProductItem = ({ product }) => {
       <span>{ingredients}</span>
       <img src={image} />
       <span>{price}</span>
-      <Link href={`/${id}`}>Zobacz szczegóły</Link>
+      <Link href={`/lista-produktow/${id}`}>Zobacz szczegóły</Link>
     </div>
   );
 };
