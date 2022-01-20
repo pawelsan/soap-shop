@@ -20,8 +20,6 @@ const dummyProducts = [
 ];
 
 const ProductDetailPage = ({ product }) => {
-  console.log(product);
-
   return <ProductDetail product={product} />;
 };
 
