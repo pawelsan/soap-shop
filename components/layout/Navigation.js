@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navigation = () => {
   return (
     <header>
-      <div>Mydełka Joasi</div>
+      <h1>Mydełka Joasi</h1>
       <nav>
         <ul>
           <li>
