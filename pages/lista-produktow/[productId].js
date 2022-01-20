@@ -26,20 +26,18 @@ const ProductDetailPage = ({ product }) => {
 };
 
 export async function getStaticPaths() {
+  const paths = [];
+  dummyProducts.forEach((product) =>
+    paths.push({
+      params: {
+        productId: product.id.toString(),
+      },
+    })
+  );
+
   return {
     fallback: false,
-    paths: [
-      {
-        params: {
-          productId: "1",
-        },
-      },
-      {
-        params: {
-          productId: "2",
-        },
-      },
-    ],
+    paths: paths,
   };
 }
 
