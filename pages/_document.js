@@ -5,6 +5,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>Sklep Mydełka Joasi</title>
+          <meta name="keywords" content="mydło, naturalne, pielęgnacja" />
+          <meta
+            name="description"
+            content="Sklep Mydełka Joasi oferuje wysokiej jakości, domowe mydła, wytwarzane z naturalnych i bezpiecznych składników"
+          />
           <link
             href="https://fonts.googleapis.com/css?family=Roboto"
             rel="stylesheet"
