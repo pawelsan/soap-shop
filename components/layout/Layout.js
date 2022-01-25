@@ -1,11 +1,11 @@
-import Navigation from "./Navigation";
+import Header from "../header/Header";
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <Navigation />
-      <main>{children}</main>
-    </div>
+    <>
+      <Header />
+      <main className="container mx-auto my-7 p-5">{children}</main>
+    </>
   );
 };
 
