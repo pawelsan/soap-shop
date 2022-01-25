@@ -5,7 +5,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Sklep Mydełka Joasi</title>
           <meta name="keywords" content="mydło, naturalne, pielęgnacja" />
           <meta
             name="description"
