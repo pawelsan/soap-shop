@@ -11,7 +11,7 @@ const Hero = () => {
           height={240}
           alt="logo"
         />
-        <h1 className="ml-3 text-4xl font-bold tracking-wider uppercase">
+        <h1 className="ml-3 text-3xl sm:text-4xl font-bold tracking-wider uppercase">
           Mydełka Joasi
         </h1>
       </a>
