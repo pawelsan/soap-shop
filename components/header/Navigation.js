@@ -8,7 +8,7 @@ const Navigation = () => {
   ];
 
   const navItemList = navItemData.map((navItem) => (
-    <NavItem href={navItem.href} text={navItem.text} />
+    <NavItem key={navItem.href} href={navItem.href} text={navItem.text} />
   ));
 
   return (
